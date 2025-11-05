@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sage's Vault - Contact</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Baloo 2', cursive;
+            background: #0a0015;
+            color: white;
+            min-height: 100vh;
+            position: relative;
+            overflow-x: hidden;
+        }
+        /* Grid background */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                repeating-linear-gradient(0deg, transparent, transparent 49px, rgba(138, 43, 226, 0.3) 49px, rgba(138, 43, 226, 0.3) 50px),
+                repeating-linear-gradient(90deg, transparent, transparent 49px, rgba(138, 43, 226, 0.3) 49px, rgba(138, 43, 226, 0.3) 50px);
+            z-index: 0;
+        }
+        .container {
+            position: relative;
+            z-index: 1;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            margin-bottom: 40px;
+        }
+        h1 {
+            font-size: 4rem;
+            color: #fff;
+            text-shadow: 
+                0 0 10px #8a2be2,
+                0 0 20px #8a2be2,
+                0 0 30px #8a2be2,
+                0 0 40px #8a2be2;
+            margin-bottom: 20px;
+            animation: glow 2s ease-in-out infinite alternate;
+        }
+        @keyframes glow {
+            from {
+                text-shadow: 
+                    0 0 10px #8a2be2,
+                    0 0 20px #8a2be2,
+                    0 0 30px #8a2be2;
+            }
+            to {
+                text-shadow: 
+                    0 0 20px #8a2be2,
+                    0 0 30px #8a2be2,
+                    0 0 40px #8a2be2,
+                    0 0 50px #8a2be2;
+            }
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.5rem;
+            padding: 15px 30px;
+            border: 3px solid #8a2be2;
+            border-radius: 15px;
+            background: rgba(138, 43, 226, 0.1);
+            transition: all 0.3s ease;
+            box-shadow: 0 0 15px rgba(138, 43, 226, 0.5);
+        }
+        nav a:hover {
+            background: rgba(138, 43, 226, 0.3);
+            box-shadow: 0 0 25px rgba(138, 43, 226, 0.8);
+            transform: translateY(-3px);
+        }
+        .content {
+            background: rgba(138, 43, 226, 0.1);
+            border: 3px solid #8a2be2;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 0 30px rgba(138, 43, 226, 0.5);
+        }
+        .content h2 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            color: #fff;
+            text-shadow: 0 0 10px #8a2be2;
+            text-align: center;
+        }
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .contact-item {
+            background: rgba(138, 43, 226, 0.2);
+            border: 2px solid #8a2be2;
+            border-radius: 15px;
+            padding: 25px;
+            transition: all 0.3s ease;
+            box-shadow: 0 0 15px rgba(138, 43, 226, 0.3);
+        }
+        .contact-item:hover {
+            transform: translateX(10px);
+            box-shadow: 0 0 25px rgba(138, 43, 226, 0.6);
+        }
+        .contact-item h3 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+            color: #fff;
+            text-shadow: 0 0 8px #8a2be2;
+        }
+        .contact-item p {
+            font-size: 1.3rem;
+            color: #e0e0e0;
+        }
+        .contact-item a {
+            color: #fff;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        .contact-item a:hover {
+            color: #8a2be2;
+            text-shadow: 0 0 10px #8a2be2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔮 Sage's Vault 🔮</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
+        <div class="content">
+            <h2>📬 Get in Touch</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h3>✉️ Email</h3>
+                    <p><a href="techchecker225@gmail.com">sage@example.com</a></p>
+                </div>
+                <div class="contact-item">
+                    <h3>💬 Discord</h3>
+                    <p>https://discord.gg/C2HJhWF9kk or @xs_zo</p>
+                </div>
+          
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
