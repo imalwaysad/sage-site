@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sage's Vault - xplo1t</title>
+    <title>Sage's Vault - Home</title>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&display=swap" rel="stylesheet">
     <style>
         * {
@@ -11,6 +11,7 @@
             padding: 0;
             box-sizing: border-box;
         }
+
         body {
             font-family: 'Baloo 2', cursive;
             background: #0a0015;
@@ -19,6 +20,7 @@
             position: relative;
             overflow-x: hidden;
         }
+
         /* Grid background */
         body::before {
             content: '';
@@ -32,6 +34,7 @@
                 repeating-linear-gradient(90deg, transparent, transparent 49px, rgba(138, 43, 226, 0.3) 49px, rgba(138, 43, 226, 0.3) 50px);
             z-index: 0;
         }
+
         .container {
             position: relative;
             z-index: 1;
@@ -39,11 +42,13 @@
             margin: 0 auto;
             padding: 20px;
         }
+
         header {
             text-align: center;
             padding: 40px 20px;
             margin-bottom: 40px;
         }
+
         h1 {
             font-size: 4rem;
             color: #fff;
@@ -55,6 +60,7 @@
             margin-bottom: 20px;
             animation: glow 2s ease-in-out infinite alternate;
         }
+
         @keyframes glow {
             from {
                 text-shadow: 
@@ -70,12 +76,14 @@
                     0 0 50px #8a2be2;
             }
         }
+
         nav {
             display: flex;
             justify-content: center;
             gap: 30px;
             flex-wrap: wrap;
         }
+
         nav a {
             color: white;
             text-decoration: none;
@@ -87,11 +95,13 @@
             transition: all 0.3s ease;
             box-shadow: 0 0 15px rgba(138, 43, 226, 0.5);
         }
+
         nav a:hover {
             background: rgba(138, 43, 226, 0.3);
             box-shadow: 0 0 25px rgba(138, 43, 226, 0.8);
             transform: translateY(-3px);
         }
+
         .content {
             background: rgba(138, 43, 226, 0.1);
             border: 3px solid #8a2be2;
@@ -99,34 +109,75 @@
             padding: 40px;
             box-shadow: 0 0 30px rgba(138, 43, 226, 0.5);
         }
+
         .content h2 {
             font-size: 2.5rem;
-            margin-bottom: 30px;
+            margin-bottom: 20px;
             color: #fff;
             text-shadow: 0 0 10px #8a2be2;
             text-align: center;
         }
-        .exploit-list {
-            text-align: left;
-            max-width: 800px;
-            margin: 0 auto;
+
+        .warning-box {
+            background: rgba(255, 0, 0, 0.15);
+            border: 3px solid #ff0000;
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 30px;
+            text-align: center;
+            box-shadow: 0 0 20px rgba(255, 0, 0, 0.4);
         }
-        .exploit-list ol {
+
+        .warning-box h3 {
+            font-size: 2rem;
+            color: #ff0000;
+            text-shadow: 0 0 10px #ff0000;
+            margin-bottom: 15px;
+        }
+
+        .warning-box p {
+            font-size: 1.4rem;
+            color: #fff;
+            font-weight: bold;
+            line-height: 1.6;
+        }
+
+        .exploit-section {
+            text-align: left;
+            margin-top: 30px;
+            background: rgba(138, 43, 226, 0.15);
+            border: 2px solid #8a2be2;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 0 20px rgba(138, 43, 226, 0.4);
+        }
+
+        .exploit-section h3 {
+            font-size: 2rem;
+            color: #fff;
+            text-shadow: 0 0 10px #8a2be2;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .exploit-section ol {
             font-size: 1.5rem;
             line-height: 2;
             color: #e0e0e0;
             padding-left: 30px;
         }
-        .exploit-list li {
+
+        .exploit-section li {
             margin-bottom: 15px;
             padding: 15px;
-            background: rgba(138, 43, 226, 0.15);
+            background: rgba(138, 43, 226, 0.1);
             border-radius: 10px;
             border: 2px solid rgba(138, 43, 226, 0.3);
             transition: all 0.3s ease;
         }
-        .exploit-list li:hover {
-            background: rgba(138, 43, 226, 0.25);
+
+        .exploit-section li:hover {
+            background: rgba(138, 43, 226, 0.2);
             transform: translateX(10px);
             border-color: #8a2be2;
         }
@@ -141,9 +192,18 @@
                 <a href="contact.html">Contact</a>
             </nav>
         </header>
+
         <div class="content">
-            <h2>🔓 Xplo1t</h2>
-            <div class="exploit-list">
+            <div class="warning-box">
+                <h3>⚠️ INFORMATION ⚠️</h3>
+                <p>DON'T STEAL THIS, NO CLAIMING THIS.</p>
+                <p style="margin-top: 10px;">YOU WILL BE DMCA'D</p>
+            </div>
+
+            <h2>Welcome to the Vault</h2>
+            
+            <div class="exploit-section">
+                <h3>🔓 XPLO1T (goto contact for more info)</h3>
                 <ol>
                     <li>Go on a link</li>
                     <li>Example: test.example.com</li>
