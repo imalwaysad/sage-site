@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sage's Vault - Home</title>
+    <title>Sage's Vault - xplo1t</title>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&display=swap" rel="stylesheet">
     <style>
         * {
@@ -11,7 +11,6 @@
             padding: 0;
             box-sizing: border-box;
         }
-
         body {
             font-family: 'Baloo 2', cursive;
             background: #0a0015;
@@ -20,7 +19,6 @@
             position: relative;
             overflow-x: hidden;
         }
-
         /* Grid background */
         body::before {
             content: '';
@@ -34,7 +32,6 @@
                 repeating-linear-gradient(90deg, transparent, transparent 49px, rgba(138, 43, 226, 0.3) 49px, rgba(138, 43, 226, 0.3) 50px);
             z-index: 0;
         }
-
         .container {
             position: relative;
             z-index: 1;
@@ -42,13 +39,11 @@
             margin: 0 auto;
             padding: 20px;
         }
-
         header {
             text-align: center;
             padding: 40px 20px;
             margin-bottom: 40px;
         }
-
         h1 {
             font-size: 4rem;
             color: #fff;
@@ -60,7 +55,6 @@
             margin-bottom: 20px;
             animation: glow 2s ease-in-out infinite alternate;
         }
-
         @keyframes glow {
             from {
                 text-shadow: 
@@ -76,14 +70,12 @@
                     0 0 50px #8a2be2;
             }
         }
-
         nav {
             display: flex;
             justify-content: center;
             gap: 30px;
             flex-wrap: wrap;
         }
-
         nav a {
             color: white;
             text-decoration: none;
@@ -95,33 +87,48 @@
             transition: all 0.3s ease;
             box-shadow: 0 0 15px rgba(138, 43, 226, 0.5);
         }
-
         nav a:hover {
             background: rgba(138, 43, 226, 0.3);
             box-shadow: 0 0 25px rgba(138, 43, 226, 0.8);
             transform: translateY(-3px);
         }
-
         .content {
             background: rgba(138, 43, 226, 0.1);
             border: 3px solid #8a2be2;
             border-radius: 20px;
             padding: 40px;
             box-shadow: 0 0 30px rgba(138, 43, 226, 0.5);
-            text-align: center;
         }
-
         .content h2 {
             font-size: 2.5rem;
-            margin-bottom: 20px;
+            margin-bottom: 30px;
             color: #fff;
             text-shadow: 0 0 10px #8a2be2;
+            text-align: center;
         }
-
-        .content p {
-            font-size: 1.3rem;
-            line-height: 1.8;
+        .exploit-list {
+            text-align: left;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .exploit-list ol {
+            font-size: 1.5rem;
+            line-height: 2;
             color: #e0e0e0;
+            padding-left: 30px;
+        }
+        .exploit-list li {
+            margin-bottom: 15px;
+            padding: 15px;
+            background: rgba(138, 43, 226, 0.15);
+            border-radius: 10px;
+            border: 2px solid rgba(138, 43, 226, 0.3);
+            transition: all 0.3s ease;
+        }
+        .exploit-list li:hover {
+            background: rgba(138, 43, 226, 0.25);
+            transform: translateX(10px);
+            border-color: #8a2be2;
         }
     </style>
 </head>
@@ -134,18 +141,19 @@
                 <a href="contact.html">Contact</a>
             </nav>
         </header>
-
         <div class="content">
-            <h2>Welcome to the Vault</h2>
-            <p></p>
-            <p style="margin-top: 20px;"> SECRULY EXPLOIT (new links only)
-                1. Go on a link
-2. Example: test.example.com
-3. copy example.com
-4. when it says blocked because its uncatagorized, click Request or the blue button
-5. open and paste it into 3 tabs
-6. when it does not show the blocked screen, type your sub domain in
-7. profit</p>
+            <h2>🔓 Xplo1t</h2>
+            <div class="exploit-list">
+                <ol>
+                    <li>Go on a link</li>
+                    <li>Example: test.example.com</li>
+                    <li>copy example.com</li>
+                    <li>when it says blocked because its uncatagorized, click Request or the blue button</li>
+                    <li>open and paste it into 3 tabs</li>
+                    <li>when it does not show the blocked screen, type your sub domain</li>
+                    <li>profit</li>
+                </ol>
+            </div>
         </div>
     </div>
 </body>
